@@ -4,6 +4,7 @@
 
 *:root {
     --Blue: hsl(223, 87%, 63%);
+    --LigthBlue: hsl(224, 86%, 70%);
     --PaleBlue: hsl(223, 100%, 88%);
     --LightRed: hsl(354, 100%, 66%);
     --Gray: hsl(0, 0%, 59%);
@@ -138,7 +139,7 @@ footer p {
 
     form {
         flex-direction: row;
-        width: 45%;
+        width: 50%;
         gap: 1.5rem;
         display: flex;
         margin-bottom: 0;
@@ -162,6 +163,9 @@ footer p {
         font-size: 1rem;
         width: 30%;
         cursor: pointer;
+    }
+    button:hover{
+        background-color: var(--LigthBlue);
     }
 
     .error-container{
@@ -210,6 +214,7 @@ footer p {
         display: inline-flex;
         align-items: center;
         justify-content: center;
+        transition: .3s;
     }
 
 
